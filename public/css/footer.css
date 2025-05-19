@@ -1,0 +1,63 @@
+/* Footer Styles */
+.footer {
+    background-color: #212529;
+}
+
+.footer h5 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.brand-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #664000bc !important;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2b2b2b;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.social-icons a:hover {
+    background-color: #3a3a3a;
+    transform: translateY(-3px);
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+/* Footer bottom section */
+.footer .row.align-items-center {
+    margin-top: 20px;
+}
+
+.footer hr {
+    opacity: 0.1;
+}
