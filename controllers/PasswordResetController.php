@@ -152,8 +152,8 @@ class PasswordResetController {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'zaynabaitaddi2022@gmail.com';
-            $mail->Password = 'zhoc ksww yysj sgrl';
+            $mail->Username = 'example@gmail.com';
+            $mail->Password = 'enter the code';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
             
